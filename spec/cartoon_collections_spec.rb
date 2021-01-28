@@ -37,6 +37,6 @@ end
 
 
 def greet_characters(array)
-  array.each do |dwarves|
-    puts "Hello #{dwarves}!"
+  array.each do |element|
+    puts "Hello #{element}!"
 end
