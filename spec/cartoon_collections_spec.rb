@@ -33,3 +33,10 @@ describe "Using Each" do
     end
   end
 end
+
+
+
+def greet_characters(array)
+  array.each do |dwarves|
+    puts "Hello #{dwarves}!"
+end
